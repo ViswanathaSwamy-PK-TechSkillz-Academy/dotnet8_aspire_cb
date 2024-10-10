@@ -10,6 +10,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8AspireCB.ApiService"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8AspireCB.Web", "DotNet8AspireCB.Web\DotNet8AspireCB.Web.csproj", "{E2EB9527-83BB-4ADB-B8C8-85A6F2C03F6F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{518FCEF0-4D30-41CA-9E9E-3F2910679C0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A1F6A1DC-ADEB-4F11-B677-9DC24620A685}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "documentation", "documentation", "{24B3B6A0-92A0-4000-B1B2-48790F060A36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{4A613243-06AD-4A8D-9A86-3D8913D36EFD}"
+	ProjectSection(SolutionItems) = preProject
+		..\docmentation\images\a.txt = ..\docmentation\images\a.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +46,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A613243-06AD-4A8D-9A86-3D8913D36EFD} = {24B3B6A0-92A0-4000-B1B2-48790F060A36}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9761469-6275-4F90-AFBC-C389B94F5955}
